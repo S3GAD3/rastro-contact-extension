@@ -5,6 +5,37 @@
 RASTRO-CONTACT forma parte de **RASTRO — Kit de Investigación de Fuentes Abiertas**. Está diseñada para que un investigador pueda analizar la página que tiene abierta en el navegador, localizar datos de contacto y perfiles sociales, descubrir páginas internas relevantes y contrastar esos indicadores con versiones históricas conservadas en Internet Archive.
 
 > **Estado del proyecto:** versión 1.1.1. Herramienta en desarrollo activo. Los resultados automáticos deben verificarse siempre contra la fuente original.
+>
+> ## 📦 Descargar RASTRO-CONTACT
+
+La última versión estable de la extensión está disponible en **GitHub Releases**:
+
+➡️ **[Descargar RASTRO-CONTACT](../../releases/latest)**
+
+> Descarga el archivo `rastro-contact-extension-vX.X.X.zip` incluido en **Assets**.  
+> Los archivos `Source code (zip)` y `Source code (tar.gz)` son generados automáticamente por GitHub y no corresponden al paquete preparado para instalar la extensión.
+
+### Instalación
+
+1. Descarga la última versión desde **Releases**.
+2. Descomprime el archivo ZIP.
+3. Abre en Chrome:
+   `chrome://extensions/`
+4. Activa **Modo desarrollador**.
+5. Pulsa **Cargar descomprimida**.
+6. Selecciona la carpeta descomprimida de RASTRO-CONTACT.
+7. Fija el icono de RASTRO-CONTACT en la barra del navegador para tener acceso rápido.
+
+> **Nota:** RASTRO-CONTACT utiliza Manifest V3 y está desarrollada inicialmente para navegadores basados en Chromium. Chrome es actualmente el navegador utilizado como referencia para las pruebas de la extensión.
+
+---
+
+## 🖼️ RASTRO-CONTACT
+
+RASTRO-CONTACT forma parte de **RASTRO — KIT DE INVESTIGACIÓN DE FUENTES ABIERTAS**.
+
+La extensión permite analizar directamente la página abierta en el navegador, localizar datos de contacto y ampliar la investigación mediante páginas internas, fuentes históricas y pivotes hacia otros módulos RASTRO.
+
 
 ## Funciones principales
 
