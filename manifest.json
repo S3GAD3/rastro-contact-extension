@@ -1,0 +1,35 @@
+{
+  "manifest_version": 3,
+  "name": "RASTRO-CONTACT",
+  "version": "1.1.1",
+  "description": "Extensión OSINT local-first para extraer, normalizar y correlacionar contactos actuales e históricos de sitios web.",
+  "minimum_chrome_version": "114",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "downloads",
+    "tabs"
+  ],
+  "host_permissions": [
+    "https://web.archive.org/*"
+  ],
+  "optional_host_permissions": [
+    "http://*/*",
+    "https://*/*"
+  ],
+  "background": {
+    "service_worker": "background/service-worker.js",
+    "type": "module"
+  },
+  "action": {
+    "default_title": "RASTRO-CONTACT",
+    "default_popup": "ui/popup.html"
+  },
+  "icons": {
+    "16": "assets/icon16.png",
+    "32": "assets/icon32.png",
+    "48": "assets/icon48.png",
+    "128": "assets/icon128.png"
+  }
+}
